@@ -17,7 +17,7 @@ def train_model():
         data=yaml_path,
         epochs=20,
         imgsz=640,
-        device='cpu'  # Körs på din Mac-processor. Ändra till device='mps' om du har M1/M2/M3 Mac för hårdvaruacceleration!
+        device='mps'  # Körs på din Mac-processor. Ändra till device='mps' om du har M1/M2/M3 Mac för hårdvaruacceleratmps!
     )
 
     print("Träningen är klar! Modellen har sparats i mappen 'runs/detect/train/'")
